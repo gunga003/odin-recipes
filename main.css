@@ -12,5 +12,17 @@ h1 {
 }
 
 img {
-    border-radius: 1em;s
+    border-radius: 1em;
 }
+
+a {
+    text-decoration: none;
+    font-size: larger;
+    padding: 10%;
+    display: inline;
+ }
+
+ a:hover {
+
+color :blue
+ }
