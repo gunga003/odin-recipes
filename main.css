@@ -1,28 +1,57 @@
 body {
-    background-color: antiquewhite;
+    background-image: url(./recipes/images/background-wallpaper.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
 }
 h2{
     color: brown;
 }
 
 h1 {
-    color: #a37153;
+    color: #fbfafa;
     font-weight: 700;
     font-size: 50px;
 }
 
 img {
     border-radius: 1em;
+    display: inline;
+    margin: 0 , 0 , 20px;
+    padding: 0;
 }
 
-a {
+nav ul {
+    display: flex;
+    margin: .10em;
+    padding: 2px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+nav a {
     text-decoration: none;
-    font-size: larger;
-    padding: 10%;
-    display: inline;
- }
+    color: #ffffff;
+    font-size: 20px;
+}
 
- a:hover {
+nav ul li {
+    list-style-type: none;
+    margin:  0 30px;
+    color: black;
+    font-weight: 900;
+    display: inline-block;
+    
+    
+   
+}
 
-color :blue
+nav{
+display: flex;
+background-color: gold;
+border: gold;
+border-radius: 2em;
  }
